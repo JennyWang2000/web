@@ -1,0 +1,870 @@
+/* variables go here */
+body {
+  background-color: #f8d9d9; }
+
+.navbar, .dropdown-menu {
+  background-color: #ffffff; }
+
+/* Normal links in navbar */
+.navbar-default .navbar-nav > li > a {
+  color: #de7e7e;
+  font-weight: bold; }
+
+/* Hover links in navbar */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #f8d2d2;
+  font-weight: bold; }
+
+/* Sub Menu Normal Links */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #de7e7e;
+  font-weight: bold; }
+
+/* Sub Menu Hover Links */
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+  color: #de7e7e;
+  font-weight: bold;
+  background-color: #f6ecec; }
+
+/* Navigation Header */
+.navbar-default > .navbar-header > h1 {
+  color: #de7e7e;
+  padding-left: 10px; }
+
+/* Social Media Icon Styling (normal) */
+.navbar-text > a:link {
+  color: #fdd5d5;
+  text-decoration: none; }
+
+.navbar-text > a:visited {
+  color: #fdd5d5;
+  text-decoration: none; }
+
+/* Social Media Icon Styling (hover) */
+.navbar-text > a:hover {
+  color: #EC95B1;
+  /* light pink*/
+  text-decoration: none; }
+
+/* excellent point to use ://validator.w3.org/ to check does the codes work well*/
+/* Styles main div...*/
+div.main {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px; }
+
+/* Links in 'main' part of page..*/
+a {
+  font-weight: bold; }
+
+a:link {
+  color: #ffa9a7;
+  text-decoration: none; }
+
+a:visited {
+  color: #a94646;
+  text-decoration: none; }
+
+a:hover {
+  color: #9b045a;
+  text-decoration: none; }
+
+.error {
+  color: #c60101; }
+
+.btn-success {
+  background-color: #3a8c1e;
+  border-color: #1b3d10; }
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #1b3d10;
+  border-color: #3a8c1e; }
+
+.btn-warning {
+  color: #fff;
+  background-color: #c98097;
+  border-color: #7E1E3d; }
+
+.btn-warning:hover {
+  color: #fff;
+  background-color: #a10738;
+  border-color: #7E1E3d; }
+
+.modal .modal-content {
+  width: 300px;
+  margin: auto; }
+
+/* controls width of message 'text area' field in contact modal */
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8; }
+
+/* Contact Modal Media Quries */
+@media (min-width: 789px) {
+  .modal .modal-content {
+    width: 350px; } }
+/* If the screen is More than 768 pixels. I will write a 'default' rule for screens */
+@media (min-width: 992px) {
+  .modal .modal-content {
+    width: 450px; } }
+@media (min-width: 1200px) {
+  .modal .modal-content {
+    width: 600px; } }
+/* Slide Show styling */
+#carousel-custom {
+  padding-bottom: 0px;
+  display: table;
+  margin: 0 auto; }
+
+/* centers slides in slide show holder */
+.carousel-inner img {
+  margin: auto;
+  min-height: 300px;
+  /* set min height - could result in pixe;ation! */
+  max-height: 300px;
+  /* set maximum height */
+  width: 100%; }
+
+/* Slide Media Quries */
+@media (min-width: 789px) {
+  .carousel-inner {
+    width: 350px; } }
+/* If the screen is More than 768 pixels. I will write a 'default' rule for screens */
+@media (min-width: 992px) {
+  .carousel-inner {
+    width: 750px; } }
+@media (min-width: 300px) {
+  .glyphicon {
+    width: 15%;
+    text-align: center; } }
+/* linked images shows in 3 cols */
+.col-md-4 img {
+  margin: 8%;
+  height: 250px;
+  /* set maximum height */
+  width: 281px; }
+
+/* quote div */
+div.quote {
+  background-color: #bddffc;
+  padding: 10%; }
+
+.q {
+  background-color: #fff;
+  padding: 10%; }
+
+/* image in quote div */
+.quote img {
+  float: right;
+  min-height: 110px;
+  /* set min height - could result in pixe;ation! */
+  max-height: 210px;
+  /* set maximum height */
+  width: 281px;
+  margin: 2% 10%; }
+
+pre {
+  background-color: #fff;
+  border-style: none; }
+
+.row2 {
+  background-color: #fdbaae; }
+
+.button {
+  background-color: #000000;
+  /* Black */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5% 35%;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.button:hover {
+  background-color: #f5b7bc;
+  color: white; }
+
+.Issues {
+  padding: 2% 10% 5%; }
+
+.Issues h2 {
+  font-weight: 700;
+  font-family: Lato;
+  font-size: 24px;
+  text-transform: uppercase; }
+
+.Issues h4 {
+  font-family: 'Laila', serif; }
+
+.row {
+  padding-top: 3%;
+  padding-bottom: 3%; }
+
+.col-md-4 h3 {
+  text-align: center;
+  font-family: 'Laila', serif;
+  font-weight: bold; }
+
+/* tittle image */
+.title {
+  text-align: center;
+  background-color: white;
+  margin-top: -20px; }
+
+/* centers slides in slide show holder */
+.title img {
+  vertical-align: middle;
+  width: auto; }
+
+/* Slide Media Quries */
+@media (min-width: 789px) {
+  .title img {
+    width: auto; } }
+/* If the screen is More than 768 pixels. I will write a 'default' rule for screens */
+@media (min-width: 400px) {
+  .title img {
+    width: 50%; } }
+/* Slide Media Quries */
+@media (min-width: 789px) {
+  .col-md-4 img {
+    width: auto; } }
+/* If the screen is More than 768 pixels. I will write a 'default' rule for screens */
+@media (min-width: 500px) {
+  .col-md-4 img {
+    width: 80%; } }
+/* found.php text design*/
+.container pre {
+  background-color: #f8d9d9;
+  padding-left: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  border-style: none; }
+
+.container h1 {
+  font-weight: 800;
+  font-family: Lato;
+  text-transform: uppercase;
+  margin-bottom: 2%; }
+
+.animalsmain h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-weight: 800; }
+
+.found {
+  margin: 2% 3%; }
+
+/*field-content title text*/
+.field-content {
+  text-indent: 5%;
+  margin-top: -20px; }
+
+.i1 {
+  position: absolute;
+  max-width: 1140px;
+  min-width: 400px; }
+
+@media (min-width: 400px) {
+  .i1 {
+    width: 87%;
+    height: 300px; } }
+@media (min-width: 900px) {
+  .i1 {
+    width: 100%;
+    height: 380px; } }
+picture {
+  display: none; }
+
+.indextitle {
+  padding-top: 6%;
+  color: #f8d9d9;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 0 2px #191919, 2px 2px 5px #191919;
+  font-size: 50px;
+  position: relative; }
+
+.subtitle {
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+  color: #f7f4f4; }
+
+.paragraph {
+  text-indent: 0;
+  text-shadow: 0 0 2px #191919, 2px 2px 5px #191919;
+  padding: 1% 5% 8% 5%;
+  position: relative;
+  color: #f7f4f4; }
+
+/*animalshelter*/
+.a_indextitle {
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px #0261b4; }
+
+.a_subtitle {
+  padding-top: 8%;
+  position: relative;
+  font-family: 'Comfortaa', cursive;
+  color: #f7f4f4; }
+
+.a_paragraph {
+  text-indent: 0;
+  padding: 1% 5% 3% 5%;
+  position: relative;
+  color: #f7f4f4; }
+
+.menu {
+  width: 60%;
+  float: left;
+  padding: 8% 5% 5% 10%; }
+
+.main2 {
+  width: 40%;
+  float: left;
+  padding: 8% 5%; }
+
+div.a_main {
+  background-color: #ffffff;
+  margin-top: 4%;
+  padding-bottom: 4%; }
+
+.h1 {
+  margin: 0 0 4%;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-weight: 800; }
+
+/* animal_shelter.php grid*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px; }
+
+@media only screen and (max-width: 500px) {
+  .item1 {
+    grid-area: 1 / span 3 / 2 / 4; }
+
+  .item2 {
+    grid-area: 3 / 3 / 3 / 4; }
+
+  .item3 {
+    grid-area: 2 / 1 / 2 / 2; }
+
+  .item4 {
+    grid-area: 2 / 2 / span 2 / 3; }
+
+  .item5 {
+    grid-area: 3 / 1 / 3 / 2; }
+
+  .item6 {
+    grid-area: 2 / 3 / 2 / 4; } }
+.m-subtitle {
+  font-family: 'Comfortaa', cursive;
+  color: #de7e7e; }
+
+.img-responsive {
+  min-height: 150px;
+  /* set min height - could result in pixe;ation! */
+  max-height: 220px;
+  /* set maximum height */
+  height: 100%;
+  width: 100%; }
+
+/*adopt.php style*/
+.adoptparagraph {
+  color: black;
+  padding: 1% 3%; }
+
+.touch {
+  background-color: #de7e7e;
+  /* Black */
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5% 26%;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+.touch:hover {
+  background-color: #f5b7bc;
+  color: white; }
+
+/* animal_news.php */
+.index-intro {
+  width: 100%;
+  padding: 10px 80px; }
+
+.index-intro h2 {
+  font-weight: 700;
+  font-family: Lato;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 10px;
+  text-transform: uppercase; }
+
+.index-intro p {
+  font-weight: 400;
+  font-family: Lato;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  padding: 10px 40px; }
+
+.index-news {
+  width: 100%;
+  padding: 0px 10%;
+  background-color: #f5b7bc;
+  overflow: hidden; }
+
+.index-news article {
+  width: 80%;
+  height: 300px;
+  background-color: white;
+  margin: 5% 10%; }
+
+/*the mouse on p it will be optical*/
+.index-news article:hover p {
+  opacity: 0.5;
+  font-size: 15px; }
+
+.index-news article:hover h3 {
+  opacity: 0.5;
+  font-size: 21px; }
+
+.news-img:hover {
+  opacity: 0.5; }
+
+.news-img {
+  float: right;
+  position: relative;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  transition: all 0.2s ease-in-out 1s;
+  -webkit-transition: all 0.2s ease-in-out 1s;
+  -moz-transition: all 0.2s ease-in-out 1s;
+  -o-transition: all 0.2s ease-in-out 1s;
+  /* this will allow transition function works on every browser that I expected*/ }
+
+.news-img img {
+  float: right;
+  object-fit: cover;
+  width: 80%;
+  height: 100%;
+  transition: all 0.2s ease-in-out 1s;
+  -webkit-transition: all 0.2s ease-in-out 1s;
+  -moz-transition: all 0.2s ease-in-out 1s;
+  -o-transition: all 0.2s ease-in-out 1s;
+  /* this will allow transition function works on every browser that I expected*/ }
+
+.index-news h3 {
+  font-weight: 400;
+  font-family: "Museo Slab 700","Lucida Grande","Lucida Sans Unicode","Trebuchet MS",sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5% 8% 3% 8%;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out 1s;
+  -webkit-transition: all 0.2s ease-in-out 1s;
+  -moz-transition: all 0.2s ease-in-out 1s;
+  -o-transition: all 0.2s ease-in-out 1s;
+  color: #de7e7e; }
+
+.index-news p {
+  font-weight: 400;
+  font-family: Lato;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 8% 2%;
+  transition: all 0.2s ease-in-out 1s;
+  -webkit-transition: all 0.2s ease-in-out 1s;
+  -moz-transition: all 0.2s ease-in-out 1s;
+  -o-transition: all 0.2s ease-in-out 1s;
+  color: #de7e7e; }
+
+.meta-nav {
+  -webkit-transition: all .2s ease-in;
+  -moz-transition: all .2s ease-in;
+  -ms-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: #2377bc; }
+
+button.More {
+  background-color: black;
+  /* Black */
+  border: none;
+  color: #de7e7e;
+  padding: 16px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5% 30% 5% 45%;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer; }
+
+#more_news {
+  display: none; }
+
+/* adopt tap css */
+.tap {
+  text-align: center; }
+
+.tap a {
+  color: #c05c7c; }
+
+.tap a:visited {
+  color: #a94646;
+  text-decoration: none; }
+
+.tap a:hover {
+  color: #9b045a;
+  text-decoration: none; }
+
+/* lightbox styling */
+/* source:  http://bootsnipp.com/snippets/featured/bootstrap-lightbox */
+img.lightbox {
+  width: 100%;
+  height: 100%; }
+
+img.gallery {
+  max-height: 200px;
+  width: auto;
+  padding: 5px; }
+
+#lightbox .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+#lightboxl .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+#lightbox1 .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+#lightbox2 .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+#lightbox4 .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+#lightbox5 .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+#lightbox6 .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+.animalsmain {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2% 3%;
+  margin: 0 15%; }
+
+.animalcenter {
+  margin-left: -8%;
+  position: absolute;
+  z-index: -1; }
+
+/* center page */
+.center h1 {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 55px;
+  color: #f8d9d9;
+  text-shadow: 0 0 2px #191919, 2px 2px 5px #191919;
+  padding-top: 10%; }
+
+.center p {
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+  color: #f7f4f4;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-shadow: 0 0 2px #191919, 2px 2px 5px #191919; }
+
+.center-img {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: -200px;
+  transition: all 0.2s ease-in-out 1s;
+  -webkit-transition: all 0.2s ease-in-out 1s;
+  -moz-transition: all 0.2s ease-in-out 1s;
+  -o-transition: all 0.2s ease-in-out 1s;
+  /* this will allow transition function works on every browser that I expected*/ }
+
+.center-img img {
+  float: left;
+  object-fit: cover;
+  margin-right: 5%;
+  width: 30%;
+  height: 300px;
+  transition: all 0.2s ease-in-out 1s;
+  -webkit-transition: all 0.2s ease-in-out 1s;
+  -moz-transition: all 0.2s ease-in-out 1s;
+  -o-transition: all 0.2s ease-in-out 1s;
+  /* this will allow transition function works on every browser that I expected*/ }
+
+.center-text h3 {
+  color: #000000;
+  text-align: center;
+  padding-top: 8%; }
+
+.center-text p {
+  color: #000000;
+  text-align: center; }
+
+.center-text:hover h3 {
+  opacity: 0.5; }
+
+.center-text:hover p {
+  opacity: 0.5; }
+
+#adopt .modal-body {
+  width: 100%;
+  margin: 0;
+  height: 600px;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+  overflow-y: scroll; }
+
+#adopt .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+.infor {
+  margin-bottom: 25%;
+  padding-top: 1%; }
+
+#council .close {
+  opacity: 1;
+  color: white;
+  background-color: #191919;
+  padding: 5px 8px;
+  border-radius: 30px;
+  border: 2px solid white;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  z-index: 1032; }
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  margin: 20px 0;
+  border: 0;
+  border-top: 1px solid #dddddd; }
+
+hr {
+  display: block;
+  unicode-bidi: isolate;
+  -webkit-margin-before: 0.5em;
+  -webkit-margin-after: 0.5em;
+  -webkit-margin-start: auto;
+  -webkit-margin-end: auto;
+  overflow: hidden; }
+
+#img {
+  margin-left: auto;
+  margin-right: auto; }
+
+._50f8 {
+  color: #90949c; }
+
+/* Contact Modal Media Quries */
+.relative {
+  min-height: 530px;
+  position: relative;
+  width: 550px; }
+
+.flexible .relative {
+  flex: 1 0 0px; }
+
+.flexible {
+  padding: 2%;
+  padding-bottom: 0; }
+
+.bigimg img {
+  position: relative;
+  float: right;
+  height: 500px;
+  width: 90%; }
+
+.l1 {
+  font-size: 14px;
+  line-height: 18px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  width: 45px; }
+
+div.photo {
+  padding-right: 10px;
+  float: left; }
+
+.photo img {
+  max-width: 400px;
+  max-height: 400px; }
+
+div.admin {
+  /*prevent image from overflowing */
+  overflow: auto;
+  padding: 20px; }
+
+/* Formatting for 'Booking Form' */
+table.form {
+  border: none; }
+
+td.form {
+  padding-right: 50px;
+  padding-top: 25px;
+  border: none; }
+
+td.submit {
+  text-align: center;
+  padding: 10px;
+  border: none; }
+
+/* Formatting for Results tables */
+table.results {
+  text-align: left;
+  border: 3px solid #580909;
+  border-collapse: collapse; }
+
+th.results {
+  height: 36px;
+  vertical-align: middle;
+  padding: 10px;
+  border-bottom: 1px solid #580909;
+  border-right: 1px solid #580909;
+  background-color: #3d8183;
+  color: #ffffff; }
+
+tr.results {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 24px; }
+
+tr.results:nth-child(even) {
+  background-color: #fce5e5; }
+
+tr.results:nth-child(odd) {
+  background-color: #ffffff; }
+
+td.results {
+  padding: 10px;
+  border-bottom: 1px solid #580909 k;
+  border-right: 1px solid #580909; }
+
+div.success {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  border-color: #580909;
+  border-width: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
+div.itemsdescribtion {
+  /*prevent image from overflowing */
+  overflow: auto; }
+
+/*# sourceMappingURL=ahsw.css.map */

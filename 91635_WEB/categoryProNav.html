@@ -1,0 +1,35 @@
+<div class="animalsmain"> 
+        <h1>Feeding Products</h1>
+        <h4><i><strong>Shopping list</strong></i></h4>  
+        <p>
+            You will need some basic supplies before bringing your new animal home. Many SPCA centres and other online stores have pet stores where you can purchase many of these following items.
+
+            When you buy from them, you receive quality products and expert advice. You can help other animals in need as all revenue directly supports the SPCA and other animal .
+        </p>
+
+        <?php
+        $pro_sql="SELECT * FROM products"; //sets up query
+        $pro_query=mysqli_query($dbconnect,$pro_sql); // runs query
+        $pro_rs=mysqli_fetch_assoc($pro_query);// organises results
+
+        // Loop to create dynamic product link, Column heading from table is in square brackets (eg:'name')
+
+        do {?>
+
+        <ul style="list-style-type: disc;text-align: -webkit-match-parent;">
+            <li><a href="feeding_products.php?page=products&productsID=<?php echo $pro_rs['productsID']
+            
+            ?>"><?php echo $pro_rs['proName'];?></a> </li> 
+        </ul>
+
+        <hr></hr>
+
+        <?php
+
+        }
+
+        while($pro_rs=mysqli_fetch_assoc($pro_query))
+
+        ?>
+        <hr></hr>
+
